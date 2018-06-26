@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane cacheShape="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <ImageView fitHeight="1294.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../source/MainBG.jpg" />
+         </image>
+      </ImageView>
+      <BorderPane layoutX="10.0" layoutY="3.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0">
+         <center>
+            <BorderPane prefHeight="546.0" prefWidth="1120.0" BorderPane.alignment="CENTER">
+               <center>
+                  <VBox alignment="CENTER" prefHeight="333.0" prefWidth="753.0" spacing="50.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <ImageView fx:id="start" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#handleStart" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../source/Starter-Button-Start.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="about" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#handleAbout" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../source/Starter-Button-About.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="scoreborad" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../source/Starter-Button-Score.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="50.0" top="50.0" />
+                     </padding>
+                     <BorderPane.margin>
+                        <Insets bottom="50.0" top="50.0" />
+                     </BorderPane.margin>
+                  </VBox>
+               </center>
+               <top>
+                  <Pane prefHeight="153.0" prefWidth="869.0" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+         </center>
+         <bottom>
+            <Pane onMouseClicked="#handleScoreboard" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </bottom>
+         <top>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="175.0" fitWidth="225.0" layoutX="194.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../source/S-Thin.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="470.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../source/D.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="348.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../source/U.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="590.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../source/O.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="709.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../source/K.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="824.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../source/U.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

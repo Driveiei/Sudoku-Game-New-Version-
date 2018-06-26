@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SelectScoreController">
+   <children>
+      <Pane prefHeight="800.0" prefWidth="1200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="849.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../source/SelectScoreMainBG.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="back" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="703.0" onMouseClicked="#handleBack" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../source/Starter-Button-Back.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="buttonThree" fitHeight="150.0" fitWidth="200.0" layoutX="500.0" layoutY="209.0" onMouseClicked="#handleScoreThree" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../source/Sudoku3X3-Button.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="buttonFour" fitHeight="150.0" fitWidth="200.0" layoutX="500.0" layoutY="359.0" onMouseClicked="#handleScoreFour" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../source/Sudoku4X4-Button.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="buttonGreater" fitHeight="150.0" fitWidth="200.0" layoutX="500.0" layoutY="509.0" onMouseClicked="#handleScoreGreaterThan" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../source/Greater-Button.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="button4Easy" fitHeight="90.0" fitWidth="200.0" layoutX="300.0" layoutY="359.0" onMouseClicked="#handleScoreFourEasy" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../source/Starter-Button-easy.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="button4Hard" fitHeight="90.0" fitWidth="200.0" layoutX="700.0" layoutY="359.0" onMouseClicked="#handleScoreFourHard" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../source/Starter-Button-Hard.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="button3Easy" fitHeight="90.0" fitWidth="200.0" layoutX="300.0" layoutY="208.0" onMouseClicked="#handleScoreThreeEasy" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../source/Starter-Button-easy.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="button3Hard" fitHeight="90.0" fitWidth="200.0" layoutX="700.0" layoutY="209.0" onMouseClicked="#handleScoreThreeHard" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../source/Starter-Button-Hard.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

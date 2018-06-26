@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ScoreboardController">
+   <children>
+      <Pane prefHeight="800.0" prefWidth="1200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="800.0" fitWidth="1423.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../source/ScoreMainBG.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="136.0" fitWidth="631.0" layoutX="510.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../source/HighScore.png" />
+               </image>
+            </ImageView>
+            <VBox fx:id="box" layoutX="392.0" layoutY="131.0" prefHeight="520.0" prefWidth="745.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 20; -fx-opacity: 0.9; -fx-border-radius: 20; -fx-background-radius: 30;" />
+            <ImageView fx:id="mainMenu" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="703.0" onMouseClicked="#handleMenu" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../source/MainMenu-Button.jpg" />
+               </image>
+            </ImageView>
+         </children></Pane>
+   </children>
+</AnchorPane>

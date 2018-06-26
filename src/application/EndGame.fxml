@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EndGameController">
+   <children>
+      <Pane prefHeight="800.0" prefWidth="1200.0">
+         <children>
+            <ImageView fitHeight="1200.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../source/MainBG2-VER1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="playAgain" fitHeight="150.0" fitWidth="200.0" layoutX="500.0" layoutY="250.0" onMouseClicked="#handlePlayAgain" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../source/PlayAgain-Button.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mainMenu" fitHeight="150.0" fitWidth="200.0" layoutX="500.0" layoutY="400.0" onMouseClicked="#handleMainMenu" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../source/MainMenu-Button.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="scoreboard" fitHeight="150.0" fitWidth="200.0" layoutX="500.0" layoutY="550.0" onMouseClicked="#handleScoreboard" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../source/ScoreBoard-Button.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="yourTime" alignment="CENTER" contentDisplay="CENTER" focusTraversable="false" layoutX="291.0" layoutY="24.0" style="-fx-background-color: #696969; -fx-border-color: white; -fx-border-width: 5;" text="Time  00 : 00 : 000">
+               <font>
+                  <Font name="Angsana New" size="120.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill></Label>
+         </children></Pane>
+   </children>
+</AnchorPane>

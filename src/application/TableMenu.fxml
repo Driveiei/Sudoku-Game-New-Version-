@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TableController">
+   <children>
+      <Pane prefHeight="800.0" prefWidth="1200.0">
+         <children>
+            <ImageView fitHeight="1297.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../source/MainBG-VER3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="500.0" layoutX="350.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../source/Select%20Table.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="three" fitHeight="200.0" fitWidth="300.0" layoutX="250.0" layoutY="417.0" onMouseClicked="#handleThree" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../source/3X3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="four" fitHeight="200.0" fitWidth="300.0" layoutX="750.0" layoutY="417.0" onMouseClicked="#handleFour" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../source/4X4.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+   </children>
+</AnchorPane>
