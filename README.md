@@ -17,12 +17,12 @@ Sudoku Game application is an application puzzle game designed for a single play
 
 ## Details of application
 
-The application lets players input name and choose mode, size, and difficulty then start the game. In the game, a player must place numbers in the correct squares as soon as possible. After player finished the game, score table will be display the player’s name, rank of player’s time, and choices for players (play again or main menu).
+The application lets players input name and choose mode, size, and difficulty then start the game. In the game, a player must place numbers in the correct squares as soon as possible. After player finished the game, score table will be display the playerâ€™s name, rank of playerâ€™s time, and choices for players (play again or main menu).
 
 ## Game Features
 
 ### Game System
-Sudoku Game has 2 modes which are ‘Basic-Sudoku’ and ‘Greater than Sudoku’.
+Sudoku Game has 2 modes which are â€˜Basic-Sudokuâ€™ and â€˜Greater than Sudokuâ€™.
 
 - Basic-Sudoku is a normally Sudoku game which has 2 levels (easy and hard). Also, Sudoku game can select 3X3 table or 4X4 table.
 
@@ -31,7 +31,7 @@ Sudoku Game has 2 modes which are ‘Basic-Sudoku’ and ‘Greater than Sudoku’.
 
 - Greater than Sudoku has additional rule where border between two squares is used to give a hint as to which neighbor is larger than the other. It has a pointer towards the smaller of the two numbers.
 
-![greater](readme_pics/AboutGreaterThan.png)
+![greater](readme_pics/AboutGreaterThan.png) 
 
 
 - 'Time system' and 'Scoreboard system' to record the time for each player use to solve the puzzle. Moreover, the application can record seperate scores for each game mode.  
@@ -61,11 +61,11 @@ Sudoku Game has 2 modes which are ‘Basic-Sudoku’ and ‘Greater than Sudoku’.
 
 
 ### Packages
-- **application** — Contains important class for this program with .fxml class.
-- **logic** — Contains logic class which using to generate puzzle.
-- **source** — Contains some pictures with .jpg and .png files for using in GUI.
-- **strategy** — Contains class with strategy pattern for preparation the puzzle.
-- **test** — Contains some class with JUnit test to check that logic of program works correctly before doing GUI, and contains some class to make dummy data in console.
+- **application** â€” Contains important class for this program with .fxml class.
+- **logic** â€” Contains logic class which using to generate puzzle.
+- **source** â€” Contains some pictures with .jpg and .png files for using in GUI.
+- **strategy** â€” Contains class with strategy pattern for preparation the puzzle.
+- **test** â€” Contains some class with JUnit test to check that logic of program works correctly before doing GUI, and contains some class to make dummy data in console.
 
 ## Installation
 This program runs on Java 8.
@@ -82,8 +82,8 @@ This program runs on Java 8.
 #### Patterns
 There are some patterns that had use in this program.
 
-- **Model-View-Controller Pattern** — Separate the responsibility for control, model and view for GUI.
-- **Singleton Pattern** — Use all same object for the same class in the program.
+- **Model-View-Controller Pattern** â€” Separate the responsibility for control, model and view for GUI.
+- **Singleton Pattern** â€” Use all same object for the same class in the program.
 - **Strategy Pattern** - Create objects which represent various strategies and a context object.
 
 #### Interesting logic
